@@ -4,7 +4,7 @@ import newRouter from './routes/new';
 import indexRouter from './routes/index';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
