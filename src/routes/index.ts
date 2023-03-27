@@ -2,7 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
-const messages = [
+export const messages = [
   {
     text: 'Hi there!',
     user: 'Armando',
